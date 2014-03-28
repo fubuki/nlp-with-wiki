@@ -16,3 +16,9 @@ var html = new Schema({
   , body      : String
 
 });
+
+var Model = mongoose.model('yahoo', html);
+
+Model.find({}, function (err, docs) {
+  
+});
